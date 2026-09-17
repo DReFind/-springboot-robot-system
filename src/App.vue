@@ -123,7 +123,7 @@ const robots = [
             </div>
           </div>
           <div class="copyright">
-            © 2026 Robot Shop. All Rights Reserved.
+            © 2026 Robot Shop. 版权归作者所有！.
           </div>
         </div>
       </div>
