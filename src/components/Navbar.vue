@@ -43,11 +43,12 @@
       <!-- 用户操作 -->
       <div class="nav-actions">
 
-        <button class="search-btn">
-          <span>⌕</span>
-        </button>
+        <div class="search-box" aria-label="搜索">
+          <span class="search-icon">⌕</span>
+          <input type="text" placeholder="搜索机器人" />
+        </div>
 
-        <button class="cart-btn">
+        <button class="cart-btn" aria-label="购物车">
           <span>🛒</span>
           <i>0</i>
         </button>

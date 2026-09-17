@@ -193,6 +193,42 @@ a {
   gap: 18px;
 }
 
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  width: 220px;
+  height: 42px;
+
+  padding: 0 14px;
+
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+}
+
+.search-icon {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1;
+}
+
+.search-box input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+}
+
+.search-box input::placeholder {
+  color: rgba(255, 255, 255, 0.65);
+}
+
 .search-btn,
 .cart-btn {
   position: relative;
