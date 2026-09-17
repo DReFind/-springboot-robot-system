@@ -5,21 +5,21 @@ const currentIndex = ref(0)
 
 const banners = [
   {
-    image: '/images/banner1.jpg',
+    image: '/front-image-simple/user-index-image-lunbo1.png',
     tag: 'INTELLIGENT ROBOT',
     title: '探索智能机器人的未来',
     description:
       '新一代智能机器人产品，为生活、商业与工业场景提供更加智能的解决方案。'
   },
   {
-    image: '/images/banner2.jpg',
+    image: '/front-image-simple/user-index-image-lunbo2.png',
     tag: 'SMART SERVICE',
     title: '让机器人服务每一个场景',
     description:
       '从餐饮服务到智能巡检，让机器人帮助企业提升效率，创造更多可能。'
   },
   {
-    image: '/images/banner3.jpg',
+    image: '/front-image-simple/user-index-lunbo3.jpeg',
     tag: 'ROBOT TECHNOLOGY',
     title: '科技，让未来触手可及',
     description:
